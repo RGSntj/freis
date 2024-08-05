@@ -1,0 +1,28 @@
+header {
+  background-color: #6278f7;
+  padding: 0.5rem 8%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  .content-left {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+
+    span {
+      font-weight: 500;
+      font-size: 20px;
+      color: #ffffff;
+    }
+  }
+
+  nav ul {
+    display: flex;
+    gap: 25px;
+
+    a {
+      color: #f5f6fa;
+    }
+  }
+}

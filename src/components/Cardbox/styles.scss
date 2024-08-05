@@ -1,0 +1,31 @@
+.card {
+  min-width: 215px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  padding: 15px 10px;
+  color: #383131;
+  cursor: pointer;
+  transition: all 0.42s ease;
+  // box-shadow: 2px 2px 4px 2px rgba(0, 0, 0, 0.1);
+
+  &:hover {
+    transform: translate(-2px, -2px);
+    box-shadow: 2px 2px 4px 2px rgba(0, 0, 0, 0.1);
+  }
+
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: center;
+
+  justify-content: center;
+
+  .title-card {
+    font-size: 14px;
+    font-weight: 700;
+  }
+
+  span {
+    font-size: 14px;
+  }
+}

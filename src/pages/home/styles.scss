@@ -1,0 +1,16 @@
+.content-main {
+  padding: 3% 7%;
+
+  h1 {
+    color: #383131;
+    font-size: 25px;
+    font-weight: 700;
+  }
+
+  .cards-container {
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+  }
+}
