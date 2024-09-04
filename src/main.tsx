@@ -5,6 +5,9 @@ import "./index.css";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import { HomePage } from "./pages/home/index.tsx";
 import { AboutsPage } from "./pages/about/index.tsx";
+import { ExerciseOne } from "./pages/exercicios/ex-01/index.tsx";
+import { ExerciseTwo } from "./pages/exercicios/ex-02/index.tsx";
+import { ExerciseThree } from "./pages/exercicios/ex-03/index.tsx";
 
 const router = createBrowserRouter([
   {
@@ -18,6 +21,18 @@ const router = createBrowserRouter([
       {
         path: "/about",
         element: <AboutsPage />,
+      },
+      {
+        path: "/exercicio-1",
+        element: <ExerciseOne />,
+      },
+      {
+        path: "/exercicio-2",
+        element: <ExerciseTwo />,
+      },
+      {
+        path: "/exercicio-3",
+        element: <ExerciseThree />,
       },
     ],
   },

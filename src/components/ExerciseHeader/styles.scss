@@ -1,0 +1,25 @@
+.header-exercise {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+  .header-content {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+
+    .icon {
+      height: 35px;
+      width: 35px;
+      border-radius: 50%;
+      background-color: black;
+      display: grid;
+      place-items: center;
+    }
+  }
+
+  .line {
+    height: 4px;
+    border-radius: 4px;
+  }
+}

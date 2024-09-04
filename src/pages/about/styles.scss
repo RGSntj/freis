@@ -1,0 +1,22 @@
+.abouts-page {
+  padding: 2% 7%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+  h1 {
+    margin-bottom: 70px;
+    align-self: flex-start;
+  }
+
+  p {
+    font-size: 30px;
+    color: #383131;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+
+  img {
+    width: 80px;
+  }
+}

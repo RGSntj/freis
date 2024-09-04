@@ -1,5 +1,5 @@
 .content-main {
-  padding: 3% 7%;
+  padding: 2% 7%;
 
   h1 {
     color: #383131;
@@ -7,10 +7,15 @@
     font-weight: 700;
   }
 
+  .titulo {
+    margin-bottom: 2px;
+  }
+
   .cards-container {
     margin-top: 2rem;
     display: flex;
     align-items: center;
     gap: 30px;
+    align-self: self-start;
   }
 }
