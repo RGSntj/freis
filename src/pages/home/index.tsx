@@ -40,6 +40,18 @@ const boxes: Box[] = [
     title: "Média de notas",
     exercise: "Exercício 5",
   },
+  {
+    link: "exercicio-6",
+    bg_box_color: "#FF5B37",
+    title: "Salário líquido",
+    exercise: "Exercício 6",
+  },
+  {
+    link: "exercicio-7",
+    bg_box_color: "#37FFAB",
+    title: "Cores primárias",
+    exercise: "Exercício 7",
+  },
 ];
 
 export function HomePage() {
