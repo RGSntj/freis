@@ -28,6 +28,18 @@ const boxes: Box[] = [
     title: "Valor total por quantidade",
     exercise: "Exercício 3",
   },
+  {
+    link: "exercicio-4",
+    bg_box_color: "#37B7FF",
+    title: "Leitura de livro",
+    exercise: "Exercício 4",
+  },
+  {
+    link: "exercicio-5",
+    bg_box_color: "#CB37FF",
+    title: "Média de notas",
+    exercise: "Exercício 5",
+  },
 ];
 
 export function HomePage() {

@@ -21,7 +21,7 @@ export function ExerciseThree() {
     <section className="content-main">
       <ExerciseHeader
         title="Exercício 03 - Valor total por quantidade"
-        lineColor="#b3ff37"
+        lineColor="#37FFF3"
       />
 
       <QuestionCard question="Implementar um programa em Javascript para calcular o total de uma venda de açaí a partir das quantidades compradas para cada tamanho: pequeno, médio e grande, sabendo que o valor do açaí é R$ 13,50; R$ 15,00 e R$ 17,50 respectivamente" />
