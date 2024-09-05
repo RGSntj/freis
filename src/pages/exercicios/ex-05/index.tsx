@@ -2,6 +2,8 @@ import { useState } from "react";
 import { ExerciseHeader } from "../../../components/ExerciseHeader";
 import { QuestionCard } from "../../../components/QuestionCard";
 
+import "./styles.scss";
+
 interface IResultado {
   media: number;
   situacao: boolean;
@@ -18,9 +20,16 @@ export function ExerciseFive() {
     const somaTotal = primeiraNota + segundaNota + terceiraNota;
     const media = somaTotal / 3;
 
+    const objeto = {
+      media: media,
+      situacao: media >= 5,
+    };
+
+    console.log(`Objeto: ${objeto.situacao}`);
+
     setResultado({
-      media,
-      situacao: media > 5,
+      media: media,
+      situacao: media >= 5,
     });
   }
 
@@ -67,6 +76,17 @@ export function ExerciseFive() {
             Executar
           </button>
         </form>
+
+        {resultado && (
+          <div className="container-resultado">
+            <span className="resultado">
+              A média do aluno é {Math.round(resultado.media).toFixed(1)}
+            </span>
+            <span className="resultado">
+              O aluno passou? {resultado.situacao ? "sim" : "não"}
+            </span>
+          </div>
+        )}
       </div>
     </section>
   );
