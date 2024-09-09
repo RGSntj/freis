@@ -54,7 +54,7 @@ export function ExerciseTen() {
 
       <QuestionCard question="Implemente um programa em Javascript que a partir da altura e do peso de uma pessoa, calcule o IMC e avalie a faixa correspondente a tabela ao lado. Ao final, apresente o IMC e a situação." />
 
-      <div className="container-main">
+      <div className="container-main container-main-ten">
         <div className="container-form">
           <form>
             <div className="row-input">
