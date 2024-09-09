@@ -52,6 +52,12 @@ const boxes: Box[] = [
     title: "Cores primárias",
     exercise: "Exercício 7",
   },
+  {
+    link: "exercicio-8",
+    bg_box_color: "#151515",
+    title: "Temperatura",
+    exercise: "Exercício 8",
+  },
 ];
 
 export function HomePage() {
