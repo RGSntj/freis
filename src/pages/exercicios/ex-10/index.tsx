@@ -37,6 +37,12 @@ export function ExerciseTen() {
     setResultados([...resultados, respostaMontada]);
   }
 
+  function excluirImc(idx: number) {
+    const novoArray = resultados.filter((_, index) => index != idx);
+
+    setResultados(novoArray);
+  }
+
   return (
     <section className="content-main">
       <ExerciseHeader
@@ -77,12 +83,12 @@ export function ExerciseTen() {
         </div>
 
         <div className="container-results">
-          {resultados.map((result) => {
+          {resultados.map((result, idx) => {
             return (
               <div className="card-result">
                 <p>{result}</p>
 
-                <button>
+                <button onClick={() => excluirImc(idx)} >
                   <Trash style={{ color: "red" }} />
                 </button>
               </div>
