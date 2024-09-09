@@ -61,7 +61,7 @@ export function ExerciseTen() {
                 <input
                   type="text"
                   id="altura"
-                  placeholder="1.8"
+                  placeholder="1.80"
                   onChange={(e) => setAltura(Number(e.target.value))}
                 />
               </div>

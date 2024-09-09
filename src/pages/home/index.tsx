@@ -64,6 +64,12 @@ const boxes: Box[] = [
     title: "Calculo de IMC com histórico",
     exercise: "Exercício 10",
   },
+  {
+    link: "exercicio-11",
+    bg_box_color: "#6533B7",
+    title: "Tabuada",
+    exercise: "Exercício 11",
+  },
 ];
 
 export function HomePage() {
