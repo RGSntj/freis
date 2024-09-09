@@ -29,6 +29,8 @@ export function ExerciseTen() {
     } else if (calculo >= 35 && calculo <= 40) {
       resultado = "Obesidade Grau II";
     } else if (calculo > 40) {
+      console.log(calculo);
+
       resultado = "Obesidade Grau III";
     }
 
