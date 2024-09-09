@@ -64,6 +64,7 @@ export function ExerciseSeven() {
             Executar
           </button>
         </form>
+        <p className="resultado">As duas cores são primárias? {resultado ? "Sim" : "Não"}</p>
       </div>
     </section>
   );
