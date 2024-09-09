@@ -13,6 +13,7 @@ import { ExerciseFive } from "./pages/exercicios/ex-05/index.tsx";
 import { ExerciseSix } from "./pages/exercicios/ex-06/index.tsx";
 import { ExerciseSeven } from "./pages/exercicios/ex-07/index.tsx";
 import { ExerciseEight } from "./pages/exercicios/ex-08/index.tsx";
+import { ExerciseTen } from "./pages/exercicios/ex-10/index.tsx";
 
 const router = createBrowserRouter([
   {
@@ -58,6 +59,10 @@ const router = createBrowserRouter([
       {
         path: "/exercicio-8",
         element: <ExerciseEight />,
+      },
+      {
+        path: "/exercicio-10",
+        element: <ExerciseTen />,
       },
     ],
   },

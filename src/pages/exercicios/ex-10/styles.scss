@@ -1,0 +1,43 @@
+form {
+    width: auto;
+}
+
+.row-input {
+    display: flex;
+    gap: 15px;
+    box-sizing: border-box;
+
+    input {
+        width: 95%;
+    }
+}
+
+.container-main {
+    display: flex;
+    // justify-content: space-around;
+    gap: 25px;
+
+    .container-results {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+
+        // background-color: black;
+        flex: 1;
+
+        .card-result {
+            padding: 10px 10px;
+            background-color: white;
+            border-radius: 5px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            button {
+                cursor: pointer;
+                background: transparent;
+                border: none;
+            }
+        }
+    }
+}

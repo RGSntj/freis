@@ -58,6 +58,12 @@ const boxes: Box[] = [
     title: "Temperatura",
     exercise: "Exercício 8",
   },
+  {
+    link: "exercicio-10",
+    bg_box_color: "#B75333",
+    title: "Calculo de IMC com histórico",
+    exercise: "Exercício 10",
+  },
 ];
 
 export function HomePage() {
